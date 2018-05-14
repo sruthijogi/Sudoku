@@ -1,8 +1,8 @@
 package puzzle
 
 import (
-	"github.com/bertoort/sugoku/board"
-	"github.com/bertoort/sugoku/logic"
+	"github.com/sruthijogi/Sudoku/board"
+	"github.com/sruthijogi/Sudoku/logic"
 	"math/rand"
 	"time"
 )
