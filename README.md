@@ -10,8 +10,6 @@ QuickFill - Called so because it quickly checks horizontally, vertically and in 
 
 Guess - It fills an empty square with a possible, non-conflicting value. If the puzzle is solved (completely filled), it validates to see if it correct. If not, it goes back and fills the square with another possible value. It recursively fills in and backtracks until the puzzle is complete.
 
-A very interesting finding was that implementing the QuickFill function before each guess did not improve the speed of the algorithm, in fact, it slowed it down. I was not expecting it. I was so surprised that I decided to keep the original name I had given the function without Quickfill: SlowSolve().
-
 SlowSolve is the faster function and therefore the one used for the API.
 
 Technologies
