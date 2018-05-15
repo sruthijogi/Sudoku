@@ -1,5 +1,5 @@
 # Sudoku
-Sudoku puzzle solver and generator
+Sudoku puzzle solver and generator - https://sujoku.herokuapp.com/
 
 Overview
 Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
@@ -28,7 +28,7 @@ API
 Get
 Board - returns a puzzle board
 
-https://sudoku.herokuapp.com/board
+https://sujoku.herokuapp.com/board
 
 Arguments -
 
@@ -39,19 +39,19 @@ hard
 random
 Example:
 
-https://sudoku.herokuapp.com/board?difficulty=easy
+https://sujoku.herokuapp.com/board?difficulty=easy
 Post
 Solve - returns the solved puzzle, along with difficulty and status
 
-https://sudoku.herokuapp.com/solve
+https://sujoku.herokuapp.com/solve
 
 Grade - returns the difficulty of the puzzle
 
-https://sudoku.herokuapp.com/grade
+https://sujoku.herokuapp.com/grade
 
 Validate - returns the status of the puzzle
 
-https://sudoku.herokuapp.com/validate
+https://sujoku.herokuapp.com/validate
 
 jQuery Example:
 var data = {
@@ -65,7 +65,7 @@ var data = {
           [0,6,4,9,0,3,0,0,1],
           [9,8,0,5,2,1,0,6,0]]"
 }
-$.post('https://sudoku.herokuapp.com/solve', data)
+$.post('https://sujoku.herokuapp.com/solve', data)
   .done(function (response) {
 
     <% response = {
