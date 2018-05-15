@@ -1,5 +1,5 @@
 # Sudoku
-Sudoku puzzle solver and generator - https://sujoku.herokuapp.com/
+Sudoku puzzle solver and generator - https://sujoku.herokuapp.com/   (Herokuapp.com is an open-source to create apps)
 
 Overview
 Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
